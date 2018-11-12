@@ -1,0 +1,143 @@
+body {
+    color: #2f2f2f !important;
+}
+.signInWrapper .umuti-login-background .transBG {
+    background: url('https://res.cloudinary.com/hehe/image/upload/v1541583319/Umuti/landing-top.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 180px 0;
+}
+.signInWrapper .umuti-login-background .transBG .aboutDiv{
+    margin: 0 20%;
+}
+.umuti-login-title{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.umuti-login-desc {
+    margin: 2rem 0;
+}
+.umuti-contact-link {
+    text-align: center;
+}
+.umuti-contact-link a {
+    color: #fff !important;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.icon-icon_chat-notification:before {
+    color: #0C7995;
+}
+
+.umuti-login-form{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+.umutiLogo{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.umutiLogo img{
+    height: 6rem !important;
+    width: auto !important;
+}
+.white-btn {
+    border: 1px solid #46CADF;
+}
+button.umuti-login-btn {
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+.umuti-login-form .signInFormBG{            
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.umuti-login-form .signInFormBG .formSignIn{
+    width: 90%;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm{
+    text-align: center;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .registerToday{
+    color: #2F2F2F;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .signupBtn{
+    margin: 0 auto;
+    padding: 0.5rem 3.5rem !important;
+    
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .loginBtn{
+    margin: 2rem auto;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .loginBtn .authBtnTwo{
+    padding: 0.5rem 3.5rem !important;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .generalFormDets{
+    padding-top: 4rem;
+    
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .generalFormDets .loginText{
+    color: #2F2F2F;
+    font-size: 1rem;
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .signInFormDiv{
+    text-align: left;
+    
+}
+.umuti-login-form .signInFormBG .formSignIn .generalForm .signInFormDiv .form-component{
+    padding: 1rem 0 !important;
+}
+form .umuti-input-area {
+    margin: 2rem 0;
+}
+
+form .umuti-input-area span {
+    color: #da3a3a;
+}
+form .umuti-submit-button {
+    margin: 1rem 0;
+}
+
+form .umuti-input-area {
+    position: relative;
+    height: 3rem;
+    margin: 1rem 0;    
+}
+form .umuti-input-area input {
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+    border: 1px solid #707070;
+    outline: none !important;
+}
+
+@media (min-width: 960px) {
+    .umuti-login-form .signInFormBG .formSignIn {
+        width: 60%;
+    }
+}
+@media (min-width: 1440px) {
+    .umuti-login-form .signInFormBG .formSignIn {
+        width: 50%;
+    }
+}
