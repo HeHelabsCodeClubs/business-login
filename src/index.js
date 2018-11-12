@@ -43,11 +43,6 @@ class BusinessLogin extends Component {
     renderErrors(errors) {
         return <RenderErrors errorData={errors} />;
     }
-    renderField(field){
-        return (
-            <RenderField fieldInput={field}/>
-        )
-    }
 
     render (){
         const { 
