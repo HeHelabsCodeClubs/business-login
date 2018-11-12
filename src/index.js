@@ -50,12 +50,15 @@ class BusinessLogin extends Component {
             leftSide,
             rightSide,
             bigTextClass,
-            bigText,
+            bigText1,
+            bigText2,
+            bigText3,
             smallText,
+            smallTextClass,
             contactLink,
             companyLogo,
             companyLogoUrl,
-            singUpButton,
+            signUpButton,
             loginText,
             inputClass,
             loginButton, 
@@ -66,7 +69,7 @@ class BusinessLogin extends Component {
             rememberMeField
          } = this.props
         const { validationErrors, formSubmitting, buttonText } = this.state;
-        const buttonDisableState = formSubmitting ? false : true;
+        const buttonDisableState = formSubmitting ? true : false;
         return (
             <div className="row reset-row signInWrapper">
                 <div className="col-md-6 col-xs-6 col-reset">
@@ -74,10 +77,12 @@ class BusinessLogin extends Component {
                         <div className="transBG">
                             <div className="aboutDiv">
                                 <div className={bigTextClass}>
-                                    {bigText}
+                                    <div><p>{bigText1}</p></div>
+                                    <div><p>{bigText2}</p></div>
+                                    <div><p>{bigText3}</p></div>
                                 </div>
-                                <div className={smallText}>
-                                    with services levels that meet international standards in speed, reliablity, security, accessibility and at affordable prices.
+                                <div className={smallTextClass}>
+                                    {smallText}
                                 </div>
                                 <div className={contactLink}><a href="/contact"><span className="icon-icon_chat-notification"></span> Contact Us >> </a></div>
                             </div>
@@ -94,7 +99,7 @@ class BusinessLogin extends Component {
                                 <div className="generalForm">
                                     <div>
                                         <div className="registerToday">Register Today</div>
-                                        <div className={singUpButton}><a href="/signup"><button className="btn authBtn signupBtn">Sign Up</button></a></div>
+                                        <div><a href="/signup"><button className={signUpButton}>Sign Up</button></a></div>
                                     </div>
                                     <div className="generalFormDets">
                                         <div className={loginText}>Already a customer? Please login into your account</div>
@@ -125,9 +130,9 @@ class BusinessLogin extends Component {
                                                                             </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className={loginButton}>
+                                                                    <div className="loginBtn">
                                                                         <button 
-                                                                        className="btn authBtnTwo" 
+                                                                        className={loginButton} 
                                                                         type="submit"
                                                                         disabled={buttonDisableState}
                                                                         >

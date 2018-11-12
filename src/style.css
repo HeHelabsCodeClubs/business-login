@@ -1,34 +1,180 @@
 body {
     color: #2f2f2f !important;
 }
+
+.signInWrapper{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+}
+.signInWrapper .signInInfoBackground{
+    background: #2A4466;
+    height: 100%;
+    width: 100%;
+}
+.signInWrapper .signInInfoBackground .transBG{
+    background: url(https://res.cloudinary.com/hehe/image/upload/v1535720352/Iposita/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 180px 0;
+}
+.signInWrapper .signInInfoBackground .transBG .aboutDiv{
+    width: 80%;
+    padding: 2rem 0;
+}
+.signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutTitle{
+    font-size:1.2rem;
+    color: #F7AF4F;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutDets{
+    color: #f2f2f2;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutCont{
+    padding: 1rem 0;
+}
+.signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutCont a{
+    color: #F7AF4F;
+    font-size: 1.2rem;
+}
+
+.signInWrapper .signInForm{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+.signInWrapper .signInForm .signInFormBG{
+    background:url(https://res.cloudinary.com/hehe/image/upload/v1536679597/Iposita/bg_small.svg);
+    background-repeat:no-repeat; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn{
+    width: 90%;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .emsLogo{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .emsLogo img{
+    width: 100%;
+    margin: 0 auto;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm{
+    text-align: center;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .registerToday{
+    color: #2A4466;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .signupBtn{
+    margin: 0 auto;
+    padding: 0.5rem 3.5rem !important;
+    outline: none !important;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .loginBtn{
+    margin: 2rem auto;
+    outline: none !important;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .loginBtn .authBtnTwo{
+    padding: 0.5rem 3.5rem !important;
+    outline: none !important;
+}
+
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .generalFormDets{
+    padding-top: 3rem;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .generalFormDets .loginText{
+    color: #2A4466;
+    font-size: 1rem;
+}
+
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .signInFormDiv{
+    text-align: left;
+}
+.signInWrapper .signInForm .signInFormBG .formSignIn .generalForm .signInFormDiv .form-component{
+    padding: 1rem 0 !important;
+}
+
+@media (min-width: 960px) {
+    .signInWrapper .signInInfoBackground .transBG {
+        background-position: 0;
+    } 
+    .signInWrapper .signInForm .signInFormBG .formSignIn{
+        width: 60%;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutTitle{
+        font-size:1.5rem;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv{
+        width: 60%;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutDets{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 1440px) {
+    .signInWrapper .signInForm .signInFormBG .formSignIn{
+        width: 50%;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutTitle{
+        font-size:2rem;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv{
+        width: 60%;
+    }
+    .signInWrapper .signInInfoBackground .transBG .aboutDiv .aboutDets{
+        font-size: 1.5rem;
+    }
+}
+
+
 .signInWrapper .umuti-login-background .transBG {
     background: url('https://res.cloudinary.com/hehe/image/upload/v1541583319/Umuti/landing-top.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% !important;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-position: 180px 0;
 }
-.signInWrapper .umuti-login-background .transBG .aboutDiv{
+.signInWrapper .umuti-login-background .transBG .aboutDiv {
     margin: 0 20%;
 }
 .umuti-login-title{
     font-size: 3rem;
     color: #fff;
     font-weight: 600;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 .umuti-login-desc {
     margin: 2rem 0;
+    text-align: justify;
 }
-.umuti-contact-link {
+.umuti-login-link {
     text-align: center;
 }
-.umuti-contact-link a {
+.umuti-login-link a {
     color: #fff !important;
     font-size: 1.2rem;
     text-align: center;
@@ -53,11 +199,23 @@ body {
 }
 .white-btn {
     border: 1px solid #46CADF;
+    outline: none !important;
+}
+.white-btn:hover {
+    background: #46CADF;
+    color: #fff;
+    outline: none !important;
+}
+.blue-btn:hover {
+    background: #fff;
+    color: #46CADF;
+    outline: none !important;
 }
 button.umuti-login-btn {
     padding: 0.5rem 4rem;
     border-radius: 2rem;
     font-weight: 600;
+    outline: none !important;
 }
 .umuti-login-form .signInFormBG{            
     width: 100%;
@@ -118,8 +276,7 @@ form .umuti-submit-button {
 
 form .umuti-input-area {
     position: relative;
-    height: 3rem;
-    margin: 1rem 0;    
+    margin: 0.5rem 0;    
 }
 form .umuti-input-area input {
     width: 100%;
@@ -129,6 +286,13 @@ form .umuti-input-area input {
     padding: 0.2rem 1rem;
     border: 1px solid #707070;
     outline: none !important;
+}
+.errors-list {
+    padding: 0;
+}
+.errors-list li {
+    list-style: none;
+    margin: 1rem 0 0 0;
 }
 
 @media (min-width: 960px) {
@@ -141,3 +305,4 @@ form .umuti-input-area input {
         width: 50%;
     }
 }
+
