@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import isEmpty from 'lodash.isempty';
 import React, { Component } from 'react';
 import RenderErrors from 'errors-render-component';
 import './style.css';

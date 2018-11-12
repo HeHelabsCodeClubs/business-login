@@ -2,11 +2,16 @@ import React from 'react';
 import { render } from 'react-dom';
 import BusinessLogin from '../../src';
 
+function getValues(values) {
+    console.log(values);
+}
+
+
 const App = () => (
     <BusinessLogin 
     leftSide="umuti-login-background"
     rightSide="umuti-login-form"
-    bigText="umuti-login-title"
+    bigTextClass="umuti-login-title"
     smallText="umuti-login-desc"
     contactLink="umuti-login-link"
     companyLogo="umutiLogo"
